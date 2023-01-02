@@ -162,11 +162,13 @@ header .navbar ul.navbar-nav li.nav-item a.nav-link:hover {
 
   font-style: normal;
   font-weight: 700;
-  font-size: 73px;
+  font-size: 62px;
   line-height: 120%;
+  padding: 0px;
 
   letter-spacing: -0.02em;
   color: #FFFFFF;
+  margin-bottom: 10px;
 }
 
 .hero-content{
@@ -394,9 +396,10 @@ header .navbar ul.navbar-nav li.nav-item a.nav-link:hover {
 
 .title-teknoker-is-coming{
   font-weight: 700;
-  font-size: 40px;
+  font-size: 36px;
   line-height: 54px;
   color: #FFFFFF;
+  margin-right: -40px;
 }
 
 .content-teknoker-is-coming{
@@ -1030,6 +1033,9 @@ header .navbar ul.navbar-nav li.nav-item a.nav-link:hover {
 .mt-100{
   margin-top: 100px;
 }
+.mr-100{
+  margin-right: 100px;
+}
 
 
 
@@ -1314,6 +1320,9 @@ header .navbar ul.navbar-nav li.nav-item a.nav-link:hover {
 
 .mt-n640{
   margin-top: -640px;
+}
+.mt-n680{
+  margin-top: -680px;
 }
 .mt-n720{
   margin-top: -720px;
