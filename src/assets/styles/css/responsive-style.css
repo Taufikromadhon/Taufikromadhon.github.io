@@ -1,0 +1,18 @@
+@media screen and (max-width: 1000px) {
+  .toggle {
+    display: block;
+    margin-left: auto;
+  }
+  ul.navbar-nav input:unchecked {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .toggle {
+    margin-left: auto;
+    display: none;
+  }
+  .toggle ul.navbar-nav {
+    display: block;
+  }
+}
