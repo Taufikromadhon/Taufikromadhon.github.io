@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-F34T5F2PG8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-F34T5F2PG8");
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,7 +41,7 @@
           class="navbar navbar-expand-lg navbar-light mx-40 my-40 ml-n40 mr-n40 mt-80"
         >
           <div class="mr-40">
-            <a href="#" class="link-logo navbar-brand">
+            <a href="#home" class="link-logo navbar-brand">
               <img
                 class="w-48 h-30"
                 src="/src/assets/images/svgs/logo-company.svg"
@@ -38,33 +52,37 @@
               />
             </a>
           </div>
-          <div id="menuToggle">
-            <div class="toggle">
-              <input type="checkbox" class="mr-40" />
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
+          <div id="">
             <div
               class="collapse navbar-collapse w-full"
               id="navbarSupportedContent"
             >
               <ul class="navbar-nav" id="menu">
                 <li class="nav-item">
-                  <a href="#" class="nav-link font-white">Our team</a>
+                  <a href="#our-team" class="nav-link font-white">Our team</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link font-white">Tokens</a>
+                  <a href="#tokens" class="nav-link font-white">Tokens</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link font-white">Connect wallet</a>
+                  <a href="#connect-wallet" class="nav-link font-white"
+                    >Connect wallet</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link font-white">Lightpaper</a>
+                  <a href="#lightpaper" class="nav-link font-white"
+                    >Lightpaper</a
+                  >
                 </li>
               </ul>
-              <button class="ml-240 nav-button">Sign In</button>
-              <button class="nav-button-highlight">Sign Up</button>
+              <a class="no-text-decoration" href="#sign-in">
+                <button class="ml-240 nav-button">Sign In</button>
+              </a>
+              <a class="no-text-decoration">
+                <button href="#sign-up" class="nav-button-highlight">
+                  Sign Up
+                </button>
+              </a>
             </div>
           </div>
         </nav>
@@ -79,7 +97,11 @@
             Agency is a full-service agency, busy designing and building
             beautiful digital products, brands, and experiences.
           </p>
-          <button class="btn-learn-more mb-16 z-3">Learn More</button>
+          <a class="no-text-decoration">
+            <button href="learn-more" class="btn-learn-more mb-16 z-3">
+              Learn More
+            </button>
+          </a>
           <div class="flex flex-row z-3">
             <button class="btn-carousel-1 mr-10">&nbsp;</button>
             <button class="btn-carousel-2">&nbsp;</button>
@@ -159,7 +181,11 @@
               </div>
             </div>
             <div class="ml-48">
-              <button class="btn-contact">Contact Us</button>
+              <a class="no-text-decoration">
+                <button href="contact-us" class="btn-contact">
+                  Contact Us
+                </button>
+              </a>
             </div>
           </div>
           <div class="ellipse-date p-center ml-192">
@@ -424,7 +450,9 @@
               on the money, there would people like you on the money, and you
               would own it because it would make the most sense in the world.
             </p>
-            <button class="btn-read-more font-700">Read More</button>
+            <a class="no-text-decoration">
+              <button class="btn-read-more font-700">Read More</button>
+            </a>
           </div>
           <div class="ml-40 w-60percent">
             <div class="wrapper-tokner-is-coming-visual">
@@ -558,13 +586,15 @@
         </div>
         <div class="">
           <div class="flex flex-row ml-120 mr-80">
-            <a href="#" class="link-footer ml-64">Our Team</a>
+            <a href="#our-team" class="link-footer ml-64"> Our Team </a>
             <p class="separator-footer ml-64">/</p>
-            <a href="#" class="link-footer ml-64">Tokens</a>
+            <a href="#tokens" class="link-footer ml-64"> Tokens </a>
             <p class="separator-footer ml-64">/</p>
-            <a href="#" class="link-footer ml-64">Connect Wallet</a>
+            <a href="#connect-wallet" class="link-footer ml-64">
+              Connect Wallet
+            </a>
             <p class="separator-footer ml-64">/</p>
-            <a href="#" class="link-footer ml-64">Light Paper</a>
+            <a href="#lightpaper" class="link-footer ml-64"> Lightpaper </a>
           </div>
         </div>
       </div>
@@ -574,7 +604,7 @@
         <div class="flex flex-row mt-140 mb-80 ml-n40 mr-n80">
           <div>
             <div class="mr-40 mw-208 mh-36">
-              <a href="#" class="link-logo navbar-brand">
+              <div class="link-logo navbar-brand">
                 <img
                   class="w-48 h-30"
                   src="/src/assets/images/svgs/logo-company.svg"
@@ -583,41 +613,41 @@
                   class="w-127 h-22"
                   src="/src/assets/images/svgs/name-company.svg"
                 />
-              </a>
+              </div>
             </div>
           </div>
           <div class="ml-120">
-            <a href="" class="wrapper-social-media">
+            <a href="#twitter" class="wrapper-social-media">
               <img
                 class="icon-social-media"
                 src="/src/assets/images/svgs/twitter.svg"
               />
             </a>
-            <a href="" class="wrapper-social-media">
+            <a href="#telegram" class="wrapper-social-media">
               <img
                 class="icon-social-media"
                 src="/src/assets/images/svgs/telegram.svg"
               />
             </a>
-            <a href="" class="wrapper-social-media">
+            <a href="#instagram" class="wrapper-social-media">
               <img
                 class="icon-social-media"
                 src="/src/assets/images/svgs/instagram.svg"
               />
             </a>
-            <a href="" class="wrapper-social-media">
+            <a href="#medium" class="wrapper-social-media">
               <img
                 class="icon-social-media"
                 src="/src/assets/images/svgs/medium.svg"
               />
             </a>
-            <a href="" class="wrapper-social-media">
+            <a href="#github" class="wrapper-social-media">
               <img
                 class="icon-social-media"
                 src="/src/assets/images/svgs/github.svg"
               />
             </a>
-            <a href="" class="wrapper-social-media">
+            <a href="#reddit" class="wrapper-social-media">
               <img
                 class="icon-social-media"
                 src="/src/assets/images/svgs/reddit.svg"
@@ -626,10 +656,10 @@
           </div>
           <div class="copy-rights">
             <p class="copy-rights-text">© 2021 Tokners. All rights reserved.</p>
-            <a class="link-creator" href="#">
+            <p class="bio-creator">
               <img src="/src/assets/images/svgs/creator-icon.svg" />
               &nbsp;Design by Oleg Kulik
-            </a>
+            </p>
           </div>
         </div>
       </div>
